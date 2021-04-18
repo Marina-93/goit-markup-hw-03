@@ -1,0 +1,285 @@
+/*Общее*/
+:root{
+    --acttiv-cl: #2196F3;
+    --text-cl: #212121;
+    --blfon-text-cl: #FFFFFF;
+    --articl-text-cl: #757575;
+
+    --bg-hat: #2F303A;
+    --buton:#F5F4FA;
+    --second-bg:#E5E5E5;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--text-cl);
+    margin: 0;
+}
+h1,h2,h3,p{
+    margin: 0px;
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*Линия*/
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ECECEC;
+}
+.nav{
+    margin-right: auto;
+}
+.site{
+    display: inline-flex;
+}
+.list .site{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.site li:last-child{
+    margin-right: 0px;
+}
+.log{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.log-part{
+    color: var(--acttiv-cl);
+}
+.menu-item{    
+    display: block;
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.item{
+    margin-right: 90px;
+}
+.menu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.menu:hover,
+.menu:focus{
+    color: var(--acttiv-cl);
+}
+.menu.link.current{
+    color: var(--acttiv-cl);
+}
+.gis{
+    margin-left: 50px;
+}
+/*Шапка*/
+.hat{
+    background-color: var(--bg-hat);
+    text-align: center;
+}
+.big-title{
+    color: var(--blfon-text-cl);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: var(--acttiv-cl);
+    color: var(--blfon-text-cl);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px 32px;
+    text-align: center;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--acttiv-cl);
+    color: var(--blfon-text-cl);
+}
+.team{
+    display: flex;
+}
+/*Текст*/
+.hand{
+    padding-top: 95px;
+}
+.job{
+    display:flex;
+}
+.job li{
+    margin-right: 30px;
+}
+.list.job{
+    padding-bottom: 94px;
+}
+.title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.title-job{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.article{
+    color: var(--articl-text-cl);
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 95px;
+}
+.art-st{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.19;    
+}
+.name{
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.work{
+    color: var(--articl-text-cl);
+    margin-bottom: 30px;
+}
+.our-squad{
+    background-color:#F5F4FA ;
+}
+.squad{
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+.team li{
+    margin-bottom: 95px;
+    margin-right: 30px;
+    box-shadow:  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/*Футер*/
+.footer{
+    background-color: var(--bg-hat);
+    color: var(--blfon-text-cl);
+}
+.footer-log{
+    display: inline-block;
+    margin-top: 60px;
+}
+.add-style{
+    margin-top: 20px;
+    font-style: inherit;
+}
+.map{
+    color: var(--blfon-text-cl);
+}
+.add-foot{
+    color: var(--articl-text-cl);
+}
+.add-foot:hover,
+.add-foot:focus{
+    color: var(--acttiv-cl);
+}
+.gis-foot{
+    margin-bottom: 10px;
+}
+.gis-foot:last-child{
+    padding-bottom: 60px;
+}
+/*Page2*/
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 95px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.card{
+    padding: 20px 24px;
+}
+.list-img{
+    box-shadow: 1px solid #EEEEEE;;
+}
+.content>.list-img{
+    flex-basis: calc(100%/3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.manu-work{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.67;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 22px;
+}
+.manu-work:hover,
+.manu-work:focus{
+    background-color: var(--acttiv-cl);
+    color: var(--buton);
+}
+.manu-work.all{
+    background-color: var(--acttiv-cl);
+    color: var(--blfon-text-cl);
+}
+.second-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.asid{
+    color: var(--articl-text-cl);
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
