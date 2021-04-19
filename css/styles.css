@@ -52,12 +52,15 @@ h1,h2,h3,p{
     margin-right: auto;
     margin-left: auto;
 }
+.section{
+    padding-top: 94px;
+}
 /*Линия*/
 .line{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .nav{
     margin-right: auto;
@@ -110,6 +113,8 @@ h1,h2,h3,p{
 .hat{
     background-color: var(--bg-hat);
     text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 .big-title{
     color: var(--blfon-text-cl);
@@ -142,9 +147,6 @@ h1,h2,h3,p{
     display: flex;
 }
 /*Текст*/
-.hand{
-    padding-top: 95px;
-}
 .job{
     display:flex;
 }
@@ -169,7 +171,6 @@ h1,h2,h3,p{
     color: var(--articl-text-cl);
     font-size: 14px;
     line-height: 1.71;
-    margin-bottom: 95px;
 }
 .art-st{
     text-align: center;
@@ -190,8 +191,7 @@ h1,h2,h3,p{
 }
 .squad{
     text-align: center;
-    padding-top: 95px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .team li{
     margin-bottom: 95px;
