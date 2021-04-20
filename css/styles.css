@@ -58,6 +58,7 @@ img{
 }
 .section{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 /*Линия*/
 .line{
@@ -164,6 +165,9 @@ img{
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+.page-job{
+    padding-top: 0px;
+}
 .title-job{
     margin-bottom: 50px;
     text-align: center;
@@ -189,7 +193,6 @@ img{
 }
 .our-squad{
     background-color:#F5F4FA ;
-    padding-bottom: 94px;
 }
 .squad{
     text-align: center;
@@ -230,9 +233,6 @@ img{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-}
-.page-work{
-    padding-bottom: 94px;
 }
 .content{
     display: flex;
